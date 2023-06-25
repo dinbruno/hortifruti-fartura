@@ -39,7 +39,7 @@ export default function Ofertas() {
               </div>
               <dt className="mt-4 font-semibold text-primary">Ofertas imperdíveis</dt>
               <dd className="mt-2 leading-7 text-slate-950">
-                Recebe um conteúdo exclusivo de ofertas e promoções.
+                Receberá um conteúdo exclusivo de ofertas e promoções.
               </dd>
             </div>
             <div className="flex flex-col items-start">
