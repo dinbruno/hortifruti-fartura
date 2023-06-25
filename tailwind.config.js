@@ -12,7 +12,18 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'primary': '#155405',
+        'secondary': '#ACD634',
+        'tertiary': '#002162',
+        'accent': '#02100E',
+        'off': '#F1F4FA',
+        'footer': '#316E1E',
+      }, 
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+  ],
 }
