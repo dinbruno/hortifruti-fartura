@@ -155,10 +155,18 @@ export default function Header() {
             </li>
             <li className="text-sm sm:text-base text-center flex items-center">
               <span
-                onClick={() => scrollTo("nosso-trabalho")}
+                onClick={() => scrollTo("lojas")}
                 className={spanClasses.join(" ")}
               >
                 Lojas
+              </span>
+            </li>
+            <li className="text-sm sm:text-base text-center flex items-center">
+              <span
+                onClick={() => scrollTo("ofertas")}
+                className={spanClasses.join(" ")}
+              >
+                Ofertas
               </span>
             </li>
             <li className="text-sm sm:text-base text-center flex items-center">
@@ -239,7 +247,7 @@ export default function Header() {
                     <ul className="flex space-x-2 sm:space-x-4 gap-8">
                       <li className="text-sm sm:text-base text-center flex items-center pl-5">
                         <span
-                          onClick={() => scrollTo("sobre-nos")}
+                          onClick={() => scrollTo("home")}
                           className={spanClasses.join(" ")}
                         >
                           Home
@@ -247,7 +255,7 @@ export default function Header() {
                       </li>
                       <li className="text-sm sm:text-base text-center flex items-center">
                         <span
-                          onClick={() => scrollTo("nossas-embarcacoes")}
+                          onClick={() => scrollTo("sobrenos")}
                           className={spanClasses.join(" ")}
                         >
                           Sobre nós
@@ -255,7 +263,7 @@ export default function Header() {
                       </li>
                       <li className="text-sm sm:text-base text-center flex items-center">
                         <span
-                          onClick={() => scrollTo("servicos")}
+                          onClick={() => scrollTo("ofertas")}
                           className={spanClasses.join(" ")}
                         >
                           Ofertas
@@ -263,7 +271,7 @@ export default function Header() {
                       </li>
                       <li className="text-sm sm:text-base text-center flex items-center">
                         <span
-                          onClick={() => scrollTo("onde-estamos")}
+                          onClick={() => scrollTo("receitas")}
                           className={spanClasses.join(" ")}
                         >
                           Receitas
@@ -271,10 +279,18 @@ export default function Header() {
                       </li>
                       <li className="text-sm sm:text-base text-center flex items-center">
                         <span
-                          onClick={() => scrollTo("nosso-trabalho")}
+                          onClick={() => scrollTo("lojas")}
                           className={spanClasses.join(" ")}
                         >
                           Lojas
+                        </span>
+                      </li>
+                      <li className="text-sm sm:text-base text-center flex items-center">
+                        <span
+                          onClick={() => scrollTo("ofertas")}
+                          className={spanClasses.join(" ")}
+                        >
+                          Ofertas
                         </span>
                       </li>
                       <li className="text-sm sm:text-base text-center flex items-center">

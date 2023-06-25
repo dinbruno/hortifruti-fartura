@@ -19,16 +19,18 @@ export default function SectionGrid() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-10 px-8">
-        <div>
+      <div className="overflow-hidden rounded-3xl w-[40rem] h-full transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={carne}
             alt="Imagem 1"
             width={1920}
             height={1920}
-            className="object-cover rounded-3xl w-[40rem] h-full"
+            layout="fill"
+            objectFit="cover"
+            className="absolute"
           />
         </div>
-        <div>
+        <div className="transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={padaria}
             alt="Imagem 2"
@@ -37,7 +39,7 @@ export default function SectionGrid() {
             className="object-cover rounded-3xl w-[40rem] h-full"
           />
         </div>
-        <div>
+        <div className="transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={queijo}
             alt="Imagem 3"
@@ -46,7 +48,7 @@ export default function SectionGrid() {
             className="object-cover rounded-3xl w-[40rem] h-full"
           />
         </div>
-        <div>
+        <div className="transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={vinhos}
             alt="Imagem 4"
@@ -55,7 +57,7 @@ export default function SectionGrid() {
             className="object-cover rounded-3xl w-[40rem] h-full"
           />
         </div>
-        <div>
+        <div className="transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={produtosImportados}
             alt="Imagem 5"
@@ -64,7 +66,7 @@ export default function SectionGrid() {
             className="object-cover rounded-3xl w-[40rem] h-full"
           />
         </div>
-        <div>
+        <div className="transform transition-all duration-500 ease-in-out hover:scale-105">
           <Image
             src={hortifruti}
             alt="Imagem 6"

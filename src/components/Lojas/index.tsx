@@ -2,7 +2,7 @@ import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 
 export default function Lojas() {
   return (
-    <div className="my-10">
+    <div className="my-10" id="lojas">
       <h2 className="text-3xl font-bold text-primary mb-4 text-center">
         Nossas Lojas
       </h2>

@@ -29,7 +29,7 @@ const responsive = {
 
 export default function Banner() {
   return (
-    <div className="bg-white h-[50rem]">
+    <div className="bg-white h-[50rem]" id="home">
     <Carousel
     swipeable={false}
     draggable={false}
