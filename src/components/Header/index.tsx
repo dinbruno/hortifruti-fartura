@@ -232,7 +232,7 @@ export default function Header() {
                     </button>
                   </div>
                 </Transition.Child>
-                <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-primary px-6 pb-4 z-[99999999]">
+                <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-primary px-6 pb-4 z-[9999999999999999]">
                   <div className="flex shrink-0 items-center">
                     <Image
                       className="w-auto p-8"
@@ -243,9 +243,9 @@ export default function Header() {
                       priority
                     />
                   </div>
-                  <nav className="flex flex-1 flex-col">
-                    <ul className="flex space-x-2 sm:space-x-4 gap-8">
-                      <li className="text-sm sm:text-base text-center flex items-center pl-5">
+                  <nav className="grid">
+                    <ul className="grid-col-1">
+                      <li className="text-sm sm:text-base text-center flex items-center">
                         <span
                           onClick={() => scrollTo("home")}
                           className={spanClasses.join(" ")}
