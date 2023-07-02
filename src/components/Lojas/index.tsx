@@ -10,7 +10,7 @@ export default function Lojas() {
         Veja qual de nossas unidades está mais próxima de você!
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-32">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-16 sm:px-32">
         <div className="store">
           <ShoppingBagIcon width={20} className="mb-2 text-primary" />
           <h3 className="font-bold text-primary">LOJA CAMPINAS 1</h3>

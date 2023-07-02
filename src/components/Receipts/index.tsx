@@ -36,7 +36,7 @@ export default function Receipts() {
   ];
 
   return (
-    <div className="h-[60rem] bg-gray-100" id="receitas">
+    <div className="h-max bg-gray-100 my-10" id="receitas">
       <div className="flex items-center bg-gray-100">
       <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-32 lg:px-8 items-center">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none mt-8">

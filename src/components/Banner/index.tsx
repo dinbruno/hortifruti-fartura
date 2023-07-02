@@ -29,7 +29,7 @@ const responsive = {
 
 export default function Banner() {
   return (
-    <div className="bg-white h-[50rem]" id="home">
+    <div className="bg-white sm:h-[50rem]" id="home">
     <Carousel
     swipeable={false}
     draggable={false}
@@ -46,14 +46,14 @@ export default function Banner() {
     dotListClass="custom-dot-list-style"
     itemClass="carousel-item-padding-40-px"
   >
-    <div className="w-screen h-[50rem] overflow-hidden" id="banner">
-      <Image src={banner} alt="banner1" width={1920} height={1080} className="h-[45rem]"/>
+    <div className="w-screen h-[30rem] sm:h-[50rem] overflow-hidden" id="banner">
+      <Image src={banner} alt="banner1" width={1920} height={1080} className="h-[30rem] sm:h-[45rem] object-cover"/>
     </div>
-    <div className="w-screen h-[50rem] overflow-hidden">
-      <Image src={banner2} alt="banner2" width={1920} height={1080} className="h-[45rem]"/>
+    <div className="w-screen h-[30rem] sm:h-[50rem] overflow-hidden">
+      <Image src={banner2} alt="banner2" width={1920} height={1080} className="h-[30rem] sm:h-[45rem] object-cover"/>
     </div>
-    <div className="w-screen h-[50rem] overflow-hidden">
-      <Image src={banner3} alt="banner2" width={1920} height={1080} className="h-[45rem]"/>
+    <div className="w-screen h-[30rem] sm:h-[50rem] overflow-hidden">
+      <Image src={banner3} alt="banner2" width={1920} height={1080} className="h-[30rem] sm:h-[45rem] object-cover"/>
     </div>
   </Carousel>
   </div>
